@@ -1,0 +1,67 @@
+<div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <ul class="nav nav-tabs" id="profspomanage-tab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active profspomanage-tab" id="book-tab" data-type="user" data-toggle="tab" href="#user"
+               role="tab"
+               aria-controls="user" aria-selected="true">Пользователи PROFобразование</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="profspomanage-tab-content">
+        <div class="tab-pane show active" id="user" role="tabpanel" aria-labelledby="user-tab">
+            <br>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="filter-user-fio">ФИО</label>
+                        <input type="text" class="form-control profspomanage-filter" id="filter-user-fio"
+                               placeholder="Фамилия Имя Отчество">
+                    </div>
+                </div>
+            </form>
+
+            <div id="profspomanage-content">
+                <a id="profspomanage-filter-apply" class="btn btn-secondary">Применить</a>
+                <a id="profspomanage-filter-clear" class="btn btn-secondary">Очистить</a>
+                <br>
+                <br>
+                <div class="row">
+                    <div id="profspomanage-user-list" class="col-sm">
+                        <!--list-->
+                    </div>
+                    <div id="profspomanage-user-details" class="col-sm">
+                        <h3 style="text-align: center;">Регистрация пользователя</h3>
+
+                        <div class="form-group col-md">
+                            <label for="user-email">Email</label>
+                            <input type="email" class="form-control" id="user-email" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md">
+                            <label for="user-fio">ФИО</label>
+                            <input type="text" class="form-control" id="user-fio"
+                                   placeholder="Фамилия Имя Отчество">
+                        </div>
+                        <div class="form-group col-md">
+                            <label for="user-pass">Пароль</label>
+                            <input type="password" class="form-control" id="user-pass">
+                        </div>
+                        <div class="form-group col-md">
+                            <label for="user-type">Тип пользователя</label>
+                            <select class="form-control" id="user-type">
+                                <option value="2">Обучающийся</option>
+                                <option value="5">Преподаватель</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md">
+                            <a id="profspomanage-user-register" class="btn btn-secondary" href="#register">Зарегистрировать</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

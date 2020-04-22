@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a68db16e770d7e65b7920f5cfdb3c1a3",
+    "packages": [
+        {
+            "name": "iprbooks/profspo-sdk",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iprbooks/profspo-php-sdk.git",
+                "reference": "0baf93cd96b2c6a276763d7497c85566a8cb57af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iprbooks/profspo-php-sdk/zipball/0baf93cd96b2c6a276763d7497c85566a8cb57af",
+                "reference": "0baf93cd96b2c6a276763d7497c85566a8cb57af",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": "5.3.* || 5.4.* || 5.5.* || 5.6.* || 7.0.* || 7.1.* || 7.2.* || 7.3.* || 7.4.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Profspo\\Sdk\\": "src/",
+                    "Profspo\\Sdk\\Core\\": "src/core/",
+                    "Profspo\\Sdk\\Models\\": "src/models/",
+                    "Profspo\\Sdk\\Collections\\": "src/collections/",
+                    "Profspo\\Sdk\\Managers\\": "src/managers/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andrey Cherkasov",
+                    "email": "andrey.cherkasov93@gmail.com"
+                }
+            ],
+            "description": "PROFspo SDK",
+            "time": "2020-04-15T14:08:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

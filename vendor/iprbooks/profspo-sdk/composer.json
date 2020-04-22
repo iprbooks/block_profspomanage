@@ -1,0 +1,33 @@
+{
+  "name": "iprbooks/profspo-sdk",
+  "description": "PROFspo SDK",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrey Cherkasov",
+      "email": "andrey.cherkasov93@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Profspo\\Sdk\\": "src/",
+      "Profspo\\Sdk\\Core\\": "src/core/",
+      "Profspo\\Sdk\\Models\\": "src/models/",
+      "Profspo\\Sdk\\Collections\\": "src/collections/",
+      "Profspo\\Sdk\\Managers\\": "src/managers/"
+    }
+  },
+  "require": {
+    "php": "5.3.* || 5.4.* || 5.5.* || 5.6.* || 7.0.* || 7.1.* || 7.2.* || 7.3.* || 7.4.*",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "config": {
+    "secure-http": false,
+    "sort-packages": true,
+    "platform": {
+      "php": "7.0"
+    }
+  }
+}
