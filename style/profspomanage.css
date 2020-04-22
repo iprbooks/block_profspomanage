@@ -13,7 +13,7 @@
     overflow-x: hidden;
 }
 
-.profspomanagemanage-page {
+.profspomanage-page {
     cursor: pointer;
 }
 
@@ -197,4 +197,11 @@ a:not([href]):not([tabindex]) {
 
 .tab-content > .active {
     display: block;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #1177d1;
+    border-color: #1177d1;
 }

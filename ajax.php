@@ -123,7 +123,7 @@ function pagination($count, $page)
             if ($i < 1) continue;
             if ($i > $pages) break;
             if ($page == $i)
-                $output .= "<li class=\"page - item active\"><a data-page=\"" . ($i - 1) . "\" class=\"page-link profspomanage-page\" >" . $i . "</a ></li > ";
+                $output .= "<li class=\"page-item active\"><a data-page=\"" . ($i - 1) . "\" class=\"page-link profspomanage-page\" >" . $i . "</a ></li > ";
             else
                 $output .= "<li class=\"page-item \"><a data-page=\"" . ($i - 1) . "\" class=\"page-link profspomanage-page\">" . $i . "</a></li>";
         }
@@ -134,7 +134,7 @@ function pagination($count, $page)
         }
         if (($pages - ($page + 2)) > 0) {
             if ($page == $pages)
-                $output .= "<li class=\"page - item active\"><a data-page=\"" . ($pages - 1) . "\" class=\"page-link profspomanage-page\" >" . $pages . "</a ></li > ";
+                $output .= "<li class=\"page-item active\"><a data-page=\"" . ($pages - 1) . "\" class=\"page-link profspomanage-page\" >" . $pages . "</a ></li > ";
             else
                 $output .= "<li class=\"page-item \"><a data-page=\"" . ($pages - 1) . "\" class=\"page-link profspomanage-page\">" . $pages . "</a></li>";
         }
