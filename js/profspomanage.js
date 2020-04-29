@@ -1,6 +1,14 @@
 $(document).ready(function () {
     // init
     send_request_profspo_m();
+
+    $('.profspomanage-form-control').keypress(function (event) {
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            document.getElementById("profspomanage-filter-apply").click();
+        }
+    });
 });
 
 // filter

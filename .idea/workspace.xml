@@ -1123,6 +1123,12 @@
       <change beforePath="$PROJECT_DIR$/../private_files/renderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../private_files/renderer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../private_files/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../private_files/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../private_files/version.php" beforeDir="false" afterPath="$PROJECT_DIR$/../private_files/version.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ajax.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/profspomanage.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/profspomanage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/rendermainpage.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/templates/rendermainpage.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/version.php" beforeDir="false" afterPath="$PROJECT_DIR$/version.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../quiz_results/backup/moodle2/restore_quiz_results_block_task.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/../quiz_results/backup/moodle2/restore_quiz_results_block_task.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../quiz_results/block_quiz_results.php" beforeDir="false" afterPath="$PROJECT_DIR$/../quiz_results/block_quiz_results.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../quiz_results/db/access.php" beforeDir="false" afterPath="$PROJECT_DIR$/../quiz_results/db/access.php" afterDir="false" />
@@ -11950,7 +11956,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -11987,7 +11993,8 @@
       <workItem from="1586971873741" duration="27000" />
       <workItem from="1586971913176" duration="3970000" />
       <workItem from="1587023400139" duration="965000" />
-      <workItem from="1587542669274" duration="311000" />
+      <workItem from="1587542669274" duration="1529000" />
+      <workItem from="1588178224565" duration="814000" />
     </task>
     <servers />
   </component>
@@ -11999,10 +12006,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="496" y="27" width="974" height="1053" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1586972603571" />
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1587024362634">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1588179031740">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1587024362634" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1588179031740" />
     <state x="622" y="257" width="733" height="591" key="RollbackChangesDialog" timestamp="1586586893731">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
