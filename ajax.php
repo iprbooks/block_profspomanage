@@ -52,6 +52,8 @@ switch ($action) {
         $userCollection->setOffset($userCollection->getLimit() * $page);
         $userCollection->get();
 
+        $message = $userCollection->getMessage();
+
         foreach ($userCollection as $user) {
             $blocked = $user->getIsBlocked() == 0 ? "Нет" : "Да";
             $userType = $user_types[$user->getRole()];
@@ -90,7 +92,7 @@ switch ($action) {
     case 'register_user':
         $userId = $userManager->registerNewUser($fio, $email, $pass, $user_type);
         if ($userId > 0) {
-            $text = "Пользователь успещно зарегистрирован";
+            $text = "Пользователь успешно зарегистрирован";
         } else {
             $text = "Ошибка";
         }
@@ -98,7 +100,7 @@ switch ($action) {
 }
 
 if (mb_strlen($content) < 200) {
-    $content = '<div style="font-size: 150%; text-align: center;">По вашему запросу ничего не найдено</div>' . $content;
+    $content = '<div style="font-size: 150%; text-align: center;">' . $message . '</div>' . $content;
 }
 
 echo json_encode(['action' => $action, 'type' => $type, 'html' => $content, 'text' => $text]);
